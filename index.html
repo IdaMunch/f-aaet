@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
+    <!-- GOOGLE FONTS END -->
+
+    <title>F'AAET</title>
+</head>
+
+<body>
+
+    <!-- OVERALL GRID -->
+    <div class="grid">
+
+        <!-- HEADER -->
+        <header>
+            
+            <!-- <figure class="logo"><img src="images/logo_white.svg"></figure>-->
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>        
+            </nav>
+            <!-- NAVIGATION END -->
+            
+            <h1>F'AAET</h1>
+        </header>
+        <!-- HEADER END -->
+
+        
+        <!-- MENU -->
+        
+        <section id="menu">
+        
+        <h2>Menu</h2>    
+        
+            <button class="menu-item" data-category="all">All</button>
+            <button class="menu-item" data-category="sides">Sides</button>
+            <button class="menu-item" data-category="burgers">Burgers</button>
+            <button class="menu-item" data-category="salads">Salads</button>
+            <button class="menu-item" data-category="desserts">Desserts</button>
+            <button class="menu-item" data-category="drinks">Drinks</button>
+    
+            
+        <main class="menuContainer"></main>
+
+            <template class="menuTemplate">
+                <article class="dish">
+                    <img src="" alt="">
+                    <p class="id"></p>
+                    <p class="category"></p>
+                    <h2></h2>
+                    <p class="description"></p>
+                    <p class="price"></p>
+                </article>
+            </template>
+
+            
+        </section>
+        
+        <!-- MENU END -->
+
+        <!-- ABOUT -->
+        <section id="about">
+            
+            <p>On September 1, 2018, F'aaet opened its doors to an all new restaurant with a menu heavily influenced by nature. We find inspiration in the nature around us and use the ingredients of the forest such as roots, bark and resin in the food we serve. All our meat is grilled over open fire. We are serious about sustainability and quality and therefore, our raw materials are carefully selected and most preferably local. We've taken the classic American-styled burger - however serving it with a twist.</p>
+            
+        </section>
+        <!-- ABOUT END -->
+        
+        
+        <!-- FOOTER -->
+
+        <footer>
+            Alliancevej 23
+            2450 København SV
+        </footer>
+        <!-- FOOTER END -->
+
+    </div>
+    <!-- OVERALL GRID END -->
+
+    <!-- SCRIPT -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <!-- SCRIPT END -->
+
+</body>
+
+</html>

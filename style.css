@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Noto Serif KR', sans-serif;
+}
+
+/* ---------- GRID ---------- */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1000px 1000px 200px 200px;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+    grid-column: span 6;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header h1 {
+    color: #fff;
+    text-align: right;
+    font-size: 20em;
+    text-transform: uppercase;
+    padding: 100px;
+}
+
+figure.logo {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ---------- NAV ---------- */
+
+nav a {
+    color: #fff;
+    border: solid 2px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+nav li {
+    padding-bottom: 20px;
+}
+
+
+/* ---------- MENU SECTION ---------- */
+
+#menu {
+    grid-column: span 6;
+    background-color: grey;
+    padding: 50px 300px;
+}
+
+#menu button {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+
+/* ---------- ABOUT SECTION ---------- */
+
+#about {
+    grid-column: span 6;
+    background-color: beige;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    grid-column: span 6;
+    background-color: #123456;
+}
+
+
+
+
+/* ---------- LISTS ---------- */
+
+ul {
+    list-style-type: none;
+    padding: 15px;
+}
+
+ul a {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+ul li ul li a {
+    font-weight: 400;
+}
+
+li {
+    list-style-type: none;
+}
