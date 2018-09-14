@@ -8,7 +8,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1000px 1000px 200px 200px;
+    grid-template-rows: 1000px 1000px 500px 200px;
 }
 
 /* ---------- HEADER ---------- */
@@ -65,13 +65,24 @@ nav li {
     grid-column: span 6;
     background-color: grey;
     padding: 50px 300px;
+    color: white;
 }
 
 #menu button {
-    text-transform: uppercase;
     font-weight: 600;
-    padding: 10px;
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    padding: 7px 15px;
     margin-right: 5px;
+    border: solid 2px white;
+    color: white;
+    background-color: transparent;
+}
+
+#menu button:hover {
+    background-color: #666;
+    cursor: pointer;
 }
 
 
@@ -79,17 +90,42 @@ nav li {
 
 #about {
     grid-column: span 6;
-    background-color: beige;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 80px 300px;
+    color: white;
+}
+
+#about p {
+    width: 50%;
 }
 
 /* ---------- FOOTER ---------- */
 
 footer {
     grid-column: span 6;
-    background-color: #123456;
+    background-color: #666;
 }
 
+footer #contact {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-top: 60px;
+}
 
+footer .hours {
+    grid-column-start: 2;
+}
+
+footer .email {
+    grid-column-start: 3;
+}
+
+footer .address {
+    grid-column-start: 4;
+}
 
 
 /* ---------- LISTS ---------- */
@@ -110,4 +146,24 @@ ul li ul li a {
 
 li {
     list-style-type: none;
+}
+
+/* ---------- Hs ---------- */
+
+h2 {
+    font-size: 4em;
+    margin: 6px 0 6px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* ---------- LINKS ---------- */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }

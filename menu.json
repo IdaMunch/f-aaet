@@ -1,5 +1,5 @@
 [
-    
+
 /* ---------- SIDES ---------- */
     {
         "id": 01,
@@ -25,8 +25,8 @@
         "description": "With parm á san & truffle oil.",
         "image": "trufflefries"
 },
-    
-/* ---------- BURGERS ---------- */    
+
+/* ---------- BURGERS ---------- */
     {
         "id": 05,
         "category": "burgers",
@@ -91,43 +91,50 @@
         "description": "With panko breaded pollack, estragon and lemon mayo, Beurre Noisettes sauteed spinach and artichoke chips.",
         "image": "thelagertha"
 },
-    
 
-/* ---------- SALADS ---------- */
+
+/* ---------- SHAKES ---------- */
     {
         "id": 13,
-        "category": "salads",
-        "name": "The ",
+        "category": "shakes",
+        "name": "The Mr. Jones",
         "price": 129,
-        "description": "With cherry tomatoes, fresh herbs, buttery bread, grated cheese and shun dressing.",
-        "image": ""
+        "description": "With Snickers & banana",
+        "image": "themrjones"
 },
     {
         "id": 14,
-        "category": "salads",
-        "name": "The",
+        "category": "shakes",
+        "name": "The Billie Jean",
         "price": 129,
-        "description": "",
-        "image": ""
+        "description": "With Oreo & caramel",
+        "image": "thebilliejean"
 },
-    
-  
+    {
+        "id": 15,
+        "category": "shakes",
+        "name": "The Garden of Eden",
+        "price": 129,
+        "description": "With strawberry & blueberry",
+        "image": "thegardenofeden"
+},
+    {
+        "id": 16,
+        "category": "shakes",
+        "name": "The Jungle Boogie",
+        "price": 129,
+        "description": "With strawberry & banana",
+        "image": "thejungleboogie"
+},
+
 /* ---------- DESSERTS ---------- */
     {
-        "id": 173,
+        "id": 17,
         "category": "desserts",
         "name": "The Plum Tart",
         "price": 80,
         "description": "With caramelized marcipan & old-fashioned cream",
-        "image": ""
-},
-    {
-        "id": 18,
-        "category": "desserts",
-        "name": "The ",
-        "price": 75,
-        "description": "With roasted hazelnuts & lean caramel sauce.",
-        "image": ""
+        "image": "theplumtart"
 },
     {
         "id": 19,
@@ -135,47 +142,6 @@
         "name": "The Pancake soufflé",
         "price": 80,
         "description": "With hot apple sauce & vanilla ice cream.",
-        "image": ""
-},
-    {
-        "id": 20,
-        "category": "desserts",
-        "name": "The Cheese Table",
-        "price": 95,
-        "description": "With quince marmalade & crisp bread.",
-        "image": ""
-},
-    /* ---------- DRINKS ---------- */
-    {
-        "id": 21,
-        "category": "drinks",
-        "name": "The Organic Ginger Beer",
-        "price": 25,
-        "description": "Homemade organic Ginger Beer, 25cl.",
-        "image": "gingerbeer"
-},
-    {
-        "id": 22,
-        "category": "drinks",
-        "name": "The Cola Zero",
-        "price": 25,
-        "description": "Coca Cola Zero, 25cl.",
-        "image": ""
-},
-    {
-        "id": 23,
-        "category": "drinks",
-        "name": "The Ship Full of IPA",
-        "price": 35,
-        "description": "The Ship Full of IPA, Brutal Brewing Beer, 33cl.",
-        "image": ""
-},
-    {
-        "id": 24,
-        "category": "drinks",
-        "name": "The Tail of a Whale",
-        "price": 35,
-        "description": "The Tail of a Whale, Brutal Brewing Beer, 33cl.",
-        "image": ""
+        "image": "thepancakesoufflé"
 },
 ]
