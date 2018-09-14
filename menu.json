@@ -1,8 +1,6 @@
 [
-
-/* ---------- SIDES ---------- */
     {
-        "id": 01,
+        "id": "01",
         "category": "sides",
         "name": "The Sweet Potato Fries",
         "price": 59,
@@ -10,7 +8,7 @@
         "image": "sweetpotatofries"
 },
     {
-        "id": 02,
+        "id": "02",
         "category": "sides",
         "name": "The Onion Rings",
         "price": 49,
@@ -18,17 +16,15 @@
         "image": "onionrings"
 },
     {
-        "id": 03,
+        "id": "03",
         "category": "sides",
         "name": "The Truffle Fries",
         "price": 59,
         "description": "With parm á san & truffle oil.",
         "image": "trufflefries"
 },
-
-/* ---------- BURGERS ---------- */
     {
-        "id": 05,
+        "id": "05",
         "category": "burgers",
         "name": "The Anarchist",
         "price": 115,
@@ -36,7 +32,7 @@
         "image": "theanarchist"
 },
     {
-        "id": 06,
+        "id": "06",
         "category": "burgers",
         "name": "The Nacho Libre",
         "price": 110,
@@ -44,7 +40,7 @@
         "image": "thenacholibre"
 },
     {
-        "id": 07,
+        "id": "07",
         "category": "burgers",
         "name": "The Homer",
         "price": 110,
@@ -52,7 +48,7 @@
         "image": "thehomer"
 },
     {
-        "id": 08,
+        "id": "08",
         "category": "burgers",
         "name": "The Arthur Shelby",
         "price": 129,
@@ -60,7 +56,7 @@
         "image": "thearthurshelby"
 },
     {
-        "id": 09,
+        "id": "09",
         "category": "burgers",
         "name": "The D'Artagnan",
         "price": 115,
@@ -91,9 +87,6 @@
         "description": "With panko breaded pollack, estragon and lemon mayo, Beurre Noisettes sauteed spinach and artichoke chips.",
         "image": "thelagertha"
 },
-
-
-/* ---------- SHAKES ---------- */
     {
         "id": 13,
         "category": "shakes",
@@ -126,8 +119,6 @@
         "description": "With strawberry & banana",
         "image": "thejungleboogie"
 },
-
-/* ---------- DESSERTS ---------- */
     {
         "id": 17,
         "category": "desserts",
@@ -143,5 +134,5 @@
         "price": 80,
         "description": "With hot apple sauce & vanilla ice cream.",
         "image": "thepancakesoufflé"
-},
+}
 ]

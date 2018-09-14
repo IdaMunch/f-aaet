@@ -46,7 +46,7 @@
             <button class="menu-item" data-category="all">All</button>
             <button class="menu-item" data-category="sides">Sides</button>
             <button class="menu-item" data-category="burgers">Burgers</button>
-            <button class="menu-item" data-category="salads">Shakes</button>
+            <button class="menu-item" data-category="shakes">Shakes</button>
             <button class="menu-item" data-category="desserts">Desserts</button>
 
 
@@ -54,12 +54,12 @@
 
             <template class="menuTemplate">
                 <article class="dish">
-                    <img src="" alt="">
-                    <p class="id"></p>
-                    <p class="category"></p>
-                    <h2></h2>
-                    <p class="description"></p>
-                    <p class="price"></p>
+                    <img src="" alt="" data-image>
+                    <p class="id" data-id></p>
+                    <p class="category" data-category></p>
+                    <p class="name" data-name></p>
+                    <p class="description" data-description></p>
+                    <p class="price" data-price></p>
                 </article>
             </template>
 
@@ -102,6 +102,20 @@
     </div>
     <!-- OVERALL GRID END -->
 
+    
+    <!-- MODAL VIEW --> 
+    <div id="modal">
+        <div id="modal-content">
+            <button>Close</button>
+            <h2 class="modal-name">TEST</h2>
+            <img class="modal-image" src="images/" alt="">
+            <p class="modal-description"></p>
+            <p class="modal-price"></p>
+        </div>
+    </div>
+
+    <!-- MODAL VIEW END -->
+    
     <!-- SCRIPT -->
     <script src="script.js"></script>
     <!-- SCRIPT END -->
