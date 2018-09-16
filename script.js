@@ -58,10 +58,20 @@ function displayModal(modalDish) {
     modal.querySelector(".modal-image").alt = "Photo of" + modalDish.name;
     modal.querySelector(".modal-description").textContent = modalDish.description;
     modal.querySelector(".modal-price").textContent = "Price " + modalDish.price +" DKK";
-    modal.querySelector("button").addEventListener("click", hideModal);
+    modal.querySelector(".closeBtn").addEventListener("click", hideModal);
     console.log(modalDish);
 }
 
 function hideModal() {
     document.querySelector("#modal").classList.remove("display");
+}
+
+// Listen for clicks outside Modal //
+window.addEventListener('click', clickOutside)
+
+// Close Modal with click outside of window //
+function clickOutside(e) {
+    if(e.target == modal){
+    document.querySelector("#modal").classList.remove("display");
+}
 }
